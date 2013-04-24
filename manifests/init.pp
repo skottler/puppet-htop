@@ -1,7 +1,7 @@
 class htop {
   case $::osfamily {
     'Darwin': {
-      package { 'htop':
+      package { 'htop-osx':
         ensure => installed,
       }
     }
