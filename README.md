@@ -1,4 +1,13 @@
-puppet-htop
-===========
+# Htop Puppet Module for Boxen
 
-Install htop for Boxen.
+## Usage
+
+```puppet
+include htop
+```
+
+## Required Puppet Modules
+
+* boxen
+* homebrew
+* stdlib
